@@ -78,6 +78,8 @@ function listFiles(auth) {
   });
 }
 
+console.log('Funciona');
+
 
 ReactDOM.render(
   <React.StrictMode>
