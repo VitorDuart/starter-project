@@ -16,7 +16,7 @@ function initClient() {
         'discoveryDocs': DISCOVERY_DOCS
     }).then(function () {
         GoogleAuth = gapi.auth2.getAuthInstance();
-
+        GoogleAuth.signIn();
         // Listen for sign-in state changes.
         // GoogleAuth.isSignedIn.listen(updateSigninStatus);
     });
